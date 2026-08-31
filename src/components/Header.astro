@@ -1,7 +1,7 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro"
 
-const basePath = import.meta.env.BASE_URL
+const basePath = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`
 const sectionLink = (sectionId: string) => `${basePath}#${sectionId}`
 
 const navItems = [

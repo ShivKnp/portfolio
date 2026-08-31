@@ -1,6 +1,6 @@
 ---
 const personalImageAlt = "Shivansh Tiwari"
-const basePath = import.meta.env.BASE_URL
+const basePath = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`
 ---
 
 <article class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
