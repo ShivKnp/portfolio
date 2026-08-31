@@ -5,6 +5,7 @@ import robotsTxt from "astro-robots-txt"
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://shivknp.github.io",
+  base: "/portfolio",
   integrations: [tailwind(), robotsTxt()],
-  site: 'https://porfolio.dev/'
 })
