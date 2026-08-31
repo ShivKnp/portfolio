@@ -1,0 +1,124 @@
+[
+  {
+    "title": "DataOps Agent — Multi-Agent Data Analyst",
+    "description": "Built a 6-agent system using LangGraph & Gemini 2.5 Flash for automated Text-to-SQL generation and dynamic charting with human-in-the-loop approval gates. Integrated OWASP-aligned prompt injection defenses blocking 94% of adversarial prompts. Deployed on Render with Docker containerization and LangSmith tracing for agent-step observability.",
+    "link": "https://dataops-zqnj.onrender.com/",
+    "github": "https://github.com/ShivKnp/DataOps",
+    "image": "/projects/dataops.jpg",
+    "tags": [
+      "LANGGRAPH",
+      "FASTAPI",
+      "PYTHON",
+      "DOCKER"
+    ]
+  },
+  {
+    "title": "PyMind — Enterprise Python RAG Assistant",
+    "description": "Architected a LangGraph & FastAPI state machine with early-exit routing reducing out-of-topic query latency to ~1ms. Combined ChromaDB vector search and BM25 keyword search across 600K+ Stack Overflow chunks with on-the-fly Tavily web fallback. Cut cloud database transaction latency from 5s to <50ms using connection pooling.",
+    "link": "https://qna-rag-agent.streamlit.app/",
+    "github": "https://github.com/ShivKnp/QnA_Rag_Agent",
+    "image": "/projects/pymind.jpg",
+    "tags": [
+      "LANGGRAPH",
+      "FASTAPI",
+      "CHROMADB",
+      "PYTHON"
+    ]
+  },
+  {
+    "title": "Python Interview Assistant",
+    "description": "An AI-powered Python interview coaching tool built on Hugging Face Spaces. Select difficulty (Easy/Medium/Hard) and topic filters (OOP, Decorators, AsyncIO, FastAPI etc.), then get detailed answers with code examples to sharpen your Python interview skills.",
+    "link": "https://huggingface.co/spaces/fearman99/python-interview-assistant",
+    "github": "https://github.com/ShivKnp/Python-Interview-Assistant",
+    "image": "/projects/interview_assistant.jpg",
+    "tags": [
+      "PYTHON",
+      "FASTAPI"
+    ]
+  },
+  {
+    "title": "SyncForge IDE — Real-time Collaborative Code Editor",
+    "description": "A full-stack, real-time collaborative IDE designed for remote pair programming, technical interviews, and educational purposes. Multiple users can edit code simultaneously with live cursors, code execution, and room-based sessions.",
+    "link": "https://sync-forge-ide-v2.vercel.app/",
+    "github": "https://github.com/ShivKnp/SyncForge-IDE-V2",
+    "image": "/projects/syncforge.jpg",
+    "tags": [
+      "NODEJS",
+      "SOCKETIO",
+      "REACT",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "CodeCrew — P2P Code Sharing & Video Chat",
+    "description": "A collaborative peer-to-peer code sharing and video chat platform. Easily share code, chat in real-time, and collaborate with peers in a modern, minimal UI. Built for remote teams and pair programming sessions.",
+    "link": "https://code-crew-nu.vercel.app/",
+    "github": "https://github.com/ShivKnp/CodeCrew",
+    "image": "/projects/codecrew.jpg",
+    "tags": [
+      "NODEJS",
+      "SOCKETIO",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "YourNotebook — Full-Stack Notes App",
+    "description": "A full-stack MERN notes manager with JWT authentication. Users can create, update, delete, and organize notes securely. Features a React frontend with a Node.js/Express backend and MongoDB database with REST API.",
+    "link": "https://yournotebook-frontend.vercel.app/login",
+    "github": "https://github.com/ShivKnp/yournotebook-frontend",
+    "image": "/projects/yournotebook.jpg",
+    "tags": [
+      "REACT",
+      "NODEJS",
+      "MONGODB",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "HeartGuard — Heart Disease Prediction ML",
+    "description": "A machine learning web application that predicts heart disease risk using patient health parameters. Trained on clinical datasets with scikit-learn classifiers; exposed via a Python Flask REST API with a responsive React frontend.",
+    "link": "https://github.com/ShivKnp/HeartGuard-Heart_Disease_Prediction_Using_Machinr_Learning",
+    "github": "https://github.com/ShivKnp/HeartGuard-Heart_Disease_Prediction_Using_Machinr_Learning",
+    "image": "/projects/heartguard.jpg",
+    "tags": [
+      "PYTHON",
+      "ML",
+      "REACT",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "Code Together — Real-time Code Editor",
+    "description": "Real-time collaborative code editor built with Node.js and Socket.io. Users can join rooms with a shared code editor and collaborate live. Simple, lightweight and beginner-friendly implementation of real-time sync.",
+    "link": "https://simultaneous-code-editor.vercel.app/",
+    "github": "https://github.com/ShivKnp/Code-Together",
+    "image": "/projects/codetogether.jpg",
+    "tags": [
+      "NODEJS",
+      "SOCKETIO",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "Daily News App",
+    "description": "A React-powered news aggregator that fetches real-time headlines across categories — Business, Entertainment, Sports, Science, and Technology — using the NewsAPI. Features infinite scroll, category filtering, and a clean card-based layout.",
+    "link": "https://newsdonkey.netlify.app/",
+    "github": "https://github.com/ShivKnp/Daily_News_App",
+    "image": "/projects/dailynews.jpg",
+    "tags": [
+      "REACT",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "title": "Textpulator — Text Manipulation Utility",
+    "description": "A text manipulation web utility app with real-time text analysis. Features include UPPERCASE/lowercase conversion, word/character/sentence count, extra space removal, copy-to-clipboard, and dark mode. Built with React.js.",
+    "link": "https://mytextpulator.netlify.app/",
+    "github": "https://github.com/ShivKnp/textpulator",
+    "image": "/projects/textpulator.jpg",
+    "tags": [
+      "REACT",
+      "JAVASCRIPT"
+    ]
+  }
+]

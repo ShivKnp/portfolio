@@ -1,0 +1,83 @@
+---
+const skillGroups = [
+  {
+    category: "AI & GenAI",
+    color: "from-yellow-500/20 to-amber-500/10 border-yellow-500/30",
+    dot: "bg-yellow-400",
+    skills: [
+      "LangGraph", "LangChain", "RAG",
+      "OpenAI API", "Anthropic Claude", "Gemini API",
+      "Prompt Engineering", "Vector Search",
+      "ragas", "LangSmith", "DeepEval",
+      "MCP (Model Context Protocol)",
+    ],
+  },
+  {
+    category: "Languages & Databases",
+    color: "from-blue-500/20 to-cyan-500/10 border-blue-500/30",
+    dot: "bg-blue-400",
+    skills: [
+      "Python", "C++", "SQL",
+      "MongoDB", "ChromaDB", "FAISS",
+      "PostgreSQL", "DuckDB",
+    ],
+  },
+  {
+    category: "Backend & Web",
+    color: "from-green-500/20 to-emerald-500/10 border-green-500/30",
+    dot: "bg-green-400",
+    skills: [
+      "FastAPI", "REST APIs",
+      "Node.js", "React.js",
+      "Socket.io", "Express.js",
+    ],
+  },
+  {
+    category: "Data & Analytics",
+    color: "from-purple-500/20 to-violet-500/10 border-purple-500/30",
+    dot: "bg-purple-400",
+    skills: [
+      "PySpark", "Pandas", "NumPy",
+      "Scikit-learn", "Matplotlib",
+    ],
+  },
+  {
+    category: "Cloud & DevOps",
+    color: "from-orange-500/20 to-red-500/10 border-orange-500/30",
+    dot: "bg-orange-400",
+    skills: [
+      "Azure", "AWS (EC2, S3)",
+      "Docker", "Git / GitHub",
+      "Hugging Face", "Render",
+    ],
+  },
+]
+---
+
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  {skillGroups.map(({ category, color, dot, skills }) => (
+    <div
+      class={`relative rounded-2xl border bg-gradient-to-br ${color} p-5 flex flex-col gap-4 backdrop-blur-sm`}
+      data-section
+    >
+      <!-- Category header -->
+      <div class="flex items-center gap-2">
+        <span class={`inline-block size-2.5 rounded-full ${dot} shadow-[0_0_6px_2px] shadow-current opacity-80`} aria-hidden="true"></span>
+        <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-700 dark:text-gray-200">
+          {category}
+        </h3>
+      </div>
+
+      <!-- Skill pills -->
+      <ul class="flex flex-wrap gap-2">
+        {skills.map((skill) => (
+          <li>
+            <span class="inline-block rounded-full bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 px-3 py-1 text-xs font-medium text-gray-700 dark:text-gray-300 hover:bg-white/20 dark:hover:bg-white/10 transition-colors duration-200 cursor-default">
+              {skill}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</div>

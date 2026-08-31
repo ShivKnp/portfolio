@@ -1,0 +1,10 @@
+[
+  {
+    "date": "May 2025 – Present",
+    "title": "Programmer Analyst Trainee",
+    "company": "Cognizant Technology Solutions",
+    "description": "Built a Python & PySpark scanning tool that sampled and processed 100M+ MS SQL records for enterprise-scale Master Data Management (MDM) cataloging. Integrated GPT-4o mini and text-embedding-3-large via direct OpenAI API to auto-generate data dictionaries with structured JSON output schemas. Developed a scalable FastAPI backend on Azure PostgreSQL serving 500+ concurrent catalog read requests with <200ms p95 latency. Evaluated retrieval quality using ragas; improved answer relevance from 0.62 to 0.84. Implemented LangSmith tracing for hallucination detection, reducing false-positive tagging by 18%.",
+    "link": "https://www.cognizant.com/",
+    "current": true
+  }
+]

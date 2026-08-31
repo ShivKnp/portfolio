@@ -1,0 +1,59 @@
+---
+import Download from "@/components/icons/Download.astro"
+---
+
+<div
+  class="relative overflow-hidden rounded-3xl border border-yellow-400/20 bg-gradient-to-br from-yellow-400/5 via-transparent to-amber-400/5 p-8 flex flex-col md:flex-row items-center gap-8"
+  data-section
+>
+  <!-- Ambient glow blob -->
+  <div
+    class="pointer-events-none absolute -top-20 -right-20 size-64 rounded-full bg-yellow-400/10 blur-3xl"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Left: text block -->
+  <div class="flex-1 z-10">
+    <p class="text-xs font-semibold uppercase tracking-widest text-yellow-500 dark:text-yellow-400 mb-2">
+      Resume
+    </p>
+    <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-3">
+      Shivansh Tiwari
+    </h2>
+    <p class="text-gray-600 dark:text-gray-400 text-pretty max-w-md leading-relaxed">
+      Python GenAI Engineer with <span class="text-yellow-500 font-semibold">1 year of production experience</span> building
+      RAG pipelines, multi-agent LLM systems, and LLM-integrated backends.
+      Skilled in LangGraph, LangChain, FastAPI, and cloud deployment on Azure and AWS.
+    </p>
+
+    <!-- Quick stats -->
+    <ul class="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
+      <li class="flex items-center gap-1.5">
+        <span class="inline-block size-1.5 rounded-full bg-yellow-400"></span>
+        6+ quantified outcomes
+      </li>
+      <li class="flex items-center gap-1.5">
+        <span class="inline-block size-1.5 rounded-full bg-green-400"></span>
+        CGPA 9.07 / 10
+      </li>
+      <li class="flex items-center gap-1.5">
+        <span class="inline-block size-1.5 rounded-full bg-blue-400"></span>
+        Cognizant · GenAI Award
+      </li>
+    </ul>
+  </div>
+
+  <!-- Right: download button -->
+  <div class="z-10 flex-shrink-0">
+    <a
+      href="/ShivanshTiwari_Resume.pdf"
+      download="ShivanshTiwari_Resume.pdf"
+      class="group inline-flex items-center gap-3 rounded-2xl bg-yellow-400 px-7 py-4 text-sm font-semibold text-gray-900 shadow-lg shadow-yellow-400/25 hover:bg-yellow-300 hover:shadow-yellow-400/40 active:scale-95 transition-all duration-200"
+      aria-label="Download Shivansh Tiwari's resume PDF"
+    >
+      <Download class="size-5 transition-transform duration-300 group-hover:translate-y-0.5" />
+      Download Resume
+    </a>
+    <p class="mt-2.5 text-center text-xs text-gray-500 dark:text-gray-500">PDF · Updated 2026</p>
+  </div>
+</div>
